@@ -101,7 +101,7 @@ def root():
     return RedirectResponse(url="/static/index.html")
 
 
-@app.get("/")
+@app.get("/activities")
 def get_activities():
     return activities
 
